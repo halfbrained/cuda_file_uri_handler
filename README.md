@@ -1,5 +1,5 @@
 # CudaText addon: file URI handler
-Opens file:/// links in CudaText, for exmple:
+Opens file:/// links in CudaText, for example:
 * file:///etc/fstab
 * file:///c:/WINDOWS/clock.txt
 * file:///install.inf
