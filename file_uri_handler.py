@@ -54,6 +54,7 @@ class Command:
         if os.path.isfile(abspath):
           file_open(abspath)
           found = True
+          break
     else:
       if os.path.isfile(path):
         file_open(path)
