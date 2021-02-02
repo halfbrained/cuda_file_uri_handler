@@ -61,7 +61,7 @@ class Command:
         found = True
     
     if not found:
-      print(f'file URI handler: couldn\'t find: {path} [{link}]')
+      print('file URI handler: couldn\'t find: {0} [{1}]'.format(path, link))
       
     return not found  # return False for success lol
     
@@ -85,4 +85,4 @@ class Command:
       user_dirs.clear()
         
       print('file URI handler: Failed to load config, using empty')
-      print(f' - Error:{type(e)}: {e}') # 'raise' here is not printed
+      print(' - Error:{0}: {1}'.format(type(e), e)) # 'raise' here is not printed
